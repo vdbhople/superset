@@ -756,7 +756,7 @@ const SliceHeaderControls = (props: SliceHeaderControlsPropsWithRouter) => {
       {canExplore && (
         <Menu.Item key={MenuKeys.ExploreChart}>
           <Tooltip title={getSliceHeaderTooltip(props.slice.slice_name)}>
-            {t('Edit chart')}
+            {t('Edit chart4')}
           </Tooltip>
         </Menu.Item>
       )}
